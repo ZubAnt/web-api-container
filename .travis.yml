@@ -5,5 +5,5 @@ language: none
 services:
   - docker
 
-install:
+before_install:
   - docker build -t webapi .
