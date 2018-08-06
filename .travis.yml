@@ -14,7 +14,3 @@ deploy:
   - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD
   - docker tag webapi zubant/webapi
   - docker push zubant/webapi
-
-after_deploy:
- - docker rm -vf webapi || true
- - docker rmi -f webapi || true
