@@ -11,6 +11,7 @@ script:
   - docker build -t webapi .
 
 deploy:
+  provider: script
   script:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD
     - docker tag webapi zubant/webapi
