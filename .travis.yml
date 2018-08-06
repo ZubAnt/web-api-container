@@ -12,7 +12,10 @@ script:
 
 deploy:
   provider: script
+  skip_cleanup: true
   script:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD
     - docker tag webapi zubant/webapi
-    - docker push zubant/webap
+    - docker push zubant/webapi
+  on:
+    branch: master
