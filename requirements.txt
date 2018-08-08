@@ -17,3 +17,4 @@ flask-compress
 flask-caching
 redis
 flasgger
+pyhocon
