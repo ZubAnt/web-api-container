@@ -18,3 +18,4 @@ flask-caching
 redis
 flasgger
 pyhocon
+yandex-pgmigrate
