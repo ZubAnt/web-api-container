@@ -19,3 +19,5 @@ redis
 flasgger
 pyhocon
 yandex-pgmigrate
+django
+Pillow
