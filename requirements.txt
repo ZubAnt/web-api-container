@@ -21,3 +21,4 @@ pyhocon
 yandex-pgmigrate
 django
 Pillow
+bcrypt
