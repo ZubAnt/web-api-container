@@ -17,4 +17,7 @@ flask-compress
 flask-caching
 redis
 flasgger
-bcrypt
+pyhocon
+yandex-pgmigrate
+django
+Pillow
